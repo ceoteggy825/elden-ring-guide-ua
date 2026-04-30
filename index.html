@@ -64,8 +64,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <style>
 :root{
   --bg:#f4f3ef;--bg2:#ece9e2;--bg3:#e3dfd6;--card:#f9f8f5;
-  --acc:#3a4e8c;--acc2:#5568a8;--acc3:#dde3f5;
-  --text:#1a1e30;--text2:#42487a;--text3:#7880b8;
+  --acc:#3a4e8c;--acc2:#4658a8;--acc3:#dde3f5;
+  --text:#1a1e30;--text2:#42487a;--text3:#4a5280;
   --bdr:rgba(58,78,140,.18);--bdrb:rgba(58,78,140,.42);
   --red:#8c2a2a;--redl:rgba(140,42,42,.07);--redb:rgba(140,42,42,.28);
   --grn:#2a6b48;--grnl:rgba(42,107,72,.07);--grnb:rgba(42,107,72,.3);
@@ -841,12 +841,13 @@ body{font-weight:400;}
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W78WBNGK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<a href="#main-content" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:9999;background:var(--acc);color:#fff;padding:8px 16px;border-radius:4px;font-family:Cinzel,serif;font-size:12px;text-decoration:none;" onfocus="this.style.left='8px';this.style.top='8px';this.style.width='auto';this.style.height='auto';" onblur="this.style.left='-999px';">Перейти до контенту</a>
 <header>
 <h1>Elden Ring</h1>
 <p class="hsub">&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &middot; &#1050;&#1074;&#1077;&#1089;&#1090;&#1080; &middot; &#1045;&#1085;&#1076;&#1110;&#1085;&#1075;&#1080; &middot; &#1063;&#1077;&#1082;&#1083;&#1110;&#1089;&#1090;&#1080; &middot; &#1060;&#1072;&#1088;&#1084; &middot; &#1041;&#1086;&#1089;&#1080; &middot; &#1041;&#1110;&#1083;&#1076;&#1080; &middot; &#1052;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &middot; &#1045;&#1092;&#1077;&#1082;&#1090;&#1080; &middot; &#1041;&#1072;&#1092;&#1080;</p>
 <button class="dm-btn" id="dm-btn" onclick="toggleDark()">&#127769; &#1058;&#1077;&#1084;&#1085;&#1072;</button>
 </header>
-<nav class="mainnav">
+<nav class="mainnav" aria-label="Основна навігація">
   <button class="mnb active" onclick="sw('timeline',this)">&#128203; &#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082;</button>
   <button class="mnb" onclick="sw('quests',this)">&#9876; &#1050;&#1074;&#1077;&#1089;&#1090;&#1080;</button>
   <button class="mnb" onclick="sw('endings',this)">&#9733; &#1045;&#1085;&#1076;&#1110;&#1085;&#1075;&#1080;</button>
@@ -859,6 +860,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <button class="mnb" onclick="sw('buffs',this)">&#10024; &#1041;&#1072;&#1092;&#1080;</button>
   <button class="mnb" onclick="sw('tools',this)">&#128205; &#1030;&#1085;&#1089;&#1090;&#1088;&#1091;&#1084;&#1077;&#1085;&#1090;&#1080;</button>
 </nav>
+<main id="main-content">
 <div id="main-timeline" class="maintab active"><div class="wrap">
 <h2 class="visually-hidden">Порядок проходження Elden Ring</h2>
 
@@ -995,7 +997,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div></div>
 </div></div>
 <div id="main-quests" class="maintab"><div class="qlayout">
-<aside class="sidebar" id="sidebar"><div class="sb-top"><input class="sb-search" type="text" placeholder="Пошук..." oninput="filterQ()"><select class="sb-filter" onchange="filterQ()"><option value="">Всі зони</option><option value="limgrave">Limgrave / Weeping</option><option value="liurnia">Liurnia</option><option value="caelid">Caelid</option><option value="altus">Altus / Volcano</option><option value="leyndell">Leyndell</option><option value="mountaintops">Mountaintops / Haligtree</option><option value="deeproot">Deeproot / Ainsel</option></select></div>
+<aside class="sidebar" id="sidebar" aria-label="Список квестів"><div class="sb-top"><input class="sb-search" type="text" placeholder="Пошук..." oninput="filterQ()"><select class="sb-filter" onchange="filterQ()"><option value="">Всі зони</option><option value="limgrave">Limgrave / Weeping</option><option value="liurnia">Liurnia</option><option value="caelid">Caelid</option><option value="altus">Altus / Volcano</option><option value="leyndell">Leyndell</option><option value="mountaintops">Mountaintops / Haligtree</option><option value="deeproot">Deeproot / Ainsel</option></select></div>
 <span class="sb-lbl">Основні</span>
 <button class="qbtn" data-q="ranni" data-zone="liurnia caelid deeproot" onclick="showQ('ranni',this)"><span class="qbtn-ico">🌙</span><span class="qbtn-name">Ranni the Witch</span><div class="qpb"><div class="qpb-fill" id="qpb-ranni"></div></div></button>
 <button class="qbtn" data-q="millicent" data-zone="caelid altus mountaintops" onclick="showQ('millicent',this)"><span class="qbtn-ico">🌿</span><span class="qbtn-name">Millicent & Gowry</span><div class="qpb"><div class="qpb-fill" id="qpb-millicent"></div></div></button>
@@ -1968,6 +1970,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="miss2-results"><div class="miss2-empty">&#8592; Відмічай події зліва щоб побачити що пропустив</div></div>
 </div></div></div></div></div></div>
 
+</main>
 <footer>&#10022; &nbsp; Elden Ring &mdash; Повний Гайд &nbsp; &#10022;<br><span style="font-size:13px;color:var(--text3);margin-top:4px;display:block;">Made by Taras</span></footer>
 <button class="mob-btn" onclick="document.getElementById('sidebar').classList.toggle('open')">&#9776;</button>
 <script>const LS='er_v4_';
