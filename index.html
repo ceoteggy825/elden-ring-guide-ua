@@ -511,6 +511,15 @@ body.dark .cs-rot{color:#e0a060;} body.dark .cs-fire{color:#e09060;}
   .mnb{padding:10px 8px;font-size:7.5px;letter-spacing:1px;}
 }
 
+
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;}
+
+h2.sl,h3.sl{font-family:'Cinzel',serif;font-size:9.5px;letter-spacing:3.5px;text-transform:uppercase;color:var(--acc);margin-bottom:16px;display:flex;align-items:center;gap:12px;font-weight:400;}
+h2.sl::after,h3.sl::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--bdrb),transparent);}
+h2.qhdr-name{font-family:'Cinzel',serif;font-size:18px;color:var(--acc);letter-spacing:1px;font-weight:400;}
+h3.ph-zone{font-family:'Cinzel',serif;font-size:13px;color:var(--text);font-weight:400;flex:1;}
+h3.bc-name{font-family:'Cinzel',serif;font-size:12.5px;color:var(--acc);font-weight:400;flex:1;}
+
 </style>
 </head>
 <body>
@@ -536,9 +545,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <button class="mnb" onclick="sw('buffs',this)">&#10024; &#1041;&#1072;&#1092;&#1080;</button>
 </nav>
 <div id="main-timeline" class="maintab active"><div class="wrap">
-<p class="sl">&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1078;&#1077;&#1085;&#1085;&#1103;</p>
+<h2 class="visually-hidden">Порядок проходження Elden Ring</h2>
+
+<h2 class="sl">&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1087;&#1088;&#1086;&#1093;&#1086;&#1076;&#1078;&#1077;&#1085;&#1085;&#1103;</h2>
 <p class="intro">&#1050;&#1083;&#1110;&#1082;&#1072;&#1081; &#1085;&#1072; &#1092;&#1072;&#1079;&#1091; &#1097;&#1086;&#1073; &#1088;&#1086;&#1079;&#1082;&#1088;&#1080;&#1090;&#1080;. &#1050;&#1083;&#1110;&#1082;&#1072;&#1081; &#1085;&#1072; &#1082;&#1074;&#1077;&#1089;&#1090; &mdash; &#1087;&#1077;&#1088;&#1077;&#1081;&#1076;&#1077;&#1096; &#1076;&#1086; &#1076;&#1077;&#1090;&#1072;&#1083;&#1077;&#1081;. &#1055;&#1088;&#1086;&#1075;&#1088;&#1077;&#1089;-&#1073;&#1072;&#1088;&#1080; &#1086;&#1085;&#1086;&#1074;&#1083;&#1102;&#1102;&#1090;&#1100;&#1089;&#1103; &#1079; &#1095;&#1077;&#1082;&#1073;&#1086;&#1082;&#1089;&#1110;&#1074;.</p>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 1</span><span class="ph-zone">Limgrave + Weeping Peninsula</span><span class="ph-lvl">Рівень 1–40</span><span class="chev o">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 1</span><h3 class="ph-zone">Limgrave + Weeping Peninsula</h3><span class="ph-lvl">Рівень 1–40</span><span class="chev o">▼</span></div>
 <div class="phase-body open"><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Margit</span><span class="boss-pill">Godrick</span></div><br>
 <span class="pb-label lbl-start">Почати квести</span>
@@ -557,7 +568,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wi">Ніколи не вбивай Patches</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 2</span><span class="ph-zone">Liurnia of the Lakes</span><span class="ph-lvl">Рівень 30–60</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 2</span><h3 class="ph-zone">Liurnia of the Lakes</h3><span class="ph-lvl">Рівень 30–60</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Royal Knight Loretta</span><span class="boss-pill">Rennala</span></div><br>
 <span class="pb-label lbl-start">Почати квести</span>
@@ -577,7 +588,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wi">Зілля Seluvis → НЕ давай Nepheli Loux</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 3</span><span class="ph-zone">Caelid + Radahn Festival</span><span class="ph-lvl">Рівень 50–80</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 3</span><h3 class="ph-zone">Caelid + Radahn Festival</h3><span class="ph-lvl">Рівень 50–80</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Commander O'Neil</span><span class="boss-pill">Starscourge Radahn</span></div><br>
 <span class="pb-label lbl-start">Почати квести</span>
@@ -591,7 +602,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wi">Після Radahn відкривається Nokron (кратер S від Fort Haight)</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 4</span><span class="ph-zone">Altus Plateau + Volcano Manor</span><span class="ph-lvl">Рівень 70–100</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 4</span><h3 class="ph-zone">Altus Plateau + Volcano Manor</h3><span class="ph-lvl">Рівень 70–100</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Istvan→Rileigh→Hoslow</span><span class="boss-pill">Rykard (ТІЛЬКИ ПІСЛЯ ВСЬОГО)</span></div><br>
 <span class="pb-label lbl-start">Почати квести</span>
@@ -609,7 +620,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wi">Після Rykard — Manor закрито НАЗАВЖДИ</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 5</span><span class="ph-zone">Nokron → Deeproot → Leyndell</span><span class="ph-lvl">Рівень 80–110</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 5</span><h3 class="ph-zone">Nokron → Deeproot → Leyndell</h3><span class="ph-lvl">Рівень 80–110</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Mimic Tear</span><span class="boss-pill">Valiant Gargoyles</span><span class="boss-pill">Morgott</span></div><br>
 </div><div>
@@ -629,7 +640,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="ci">Seedbed Curse #4 — кімната Rya у Manor ⚠ ЗНИКНЕ після Rykard</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 6</span><span class="ph-zone">Mountaintops + Farum Azula</span><span class="ph-lvl">Рівень 100–120</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 6</span><h3 class="ph-zone">Mountaintops + Farum Azula</h3><span class="ph-lvl">Рівень 100–120</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Fire Giant</span><span class="boss-pill">Alexander (дуель)</span><span class="boss-pill">Maliketh</span></div><br>
 </div><div>
@@ -643,7 +654,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wi">Maliketh = Leyndell стає попелом. NPC у живому Leyndell ЗНИКАЮТЬ</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 7</span><span class="ph-zone">Ashen Leyndell + Haligtree</span><span class="ph-lvl">Рівень 120–150</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 7</span><h3 class="ph-zone">Ashen Leyndell + Haligtree</h3><span class="ph-lvl">Рівень 120–150</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Lichdragon Fortissax</span><span class="boss-pill">Malenia</span></div><br>
 </div><div>
@@ -658,7 +669,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="wi">Після Malenia: Gold Needle на квітці → Miquella's Needle (скасовує Frenzied Flame)</div>
 </div>
 </div></div>
-<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 8</span><span class="ph-zone">Throne Room — Фінал</span><span class="ph-lvl">Після Elden Beast</span><span class="chev ">▼</span></div>
+<div class="phase-card"><div class="phase-head" onclick="tph(this)"><span class="ph-num">Фаза 8</span><h3 class="ph-zone">Throne Room — Фінал</h3><span class="ph-lvl">Після Elden Beast</span><span class="chev ">▼</span></div>
 <div class="phase-body "><div class="pb-grid"><div>
 <span class="pb-label lbl-boss">Вбити</span><div class="boss-row"><span class="boss-pill">Radagon</span><span class="boss-pill">Elden Beast</span></div><br>
 </div><div>
@@ -693,11 +704,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <button class="qbtn" data-q="latenna" data-zone="liurnia mountaintops" onclick="showQ('latenna',this)"><span class="qbtn-ico">🏹</span><span class="qbtn-name">Latenna the Albinauric</span><div class="qpb"><div class="qpb-fill" id="qpb-latenna"></div></div></button>
 </aside>
 <div class="qcontent" id="qcontent"><div id="q-ranni" class="qpage active">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🌙</span><span class="qhdr-name">Ranni the Witch</span><span class="diff dl">Дуже довгий</span></div><p class="qdesc">Найдовший квест. Dark Moon Greatsword + Age of Stars ending.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🌙</span><h2 class="qhdr-name">Ranni the Witch</h2><span class="diff dl">Дуже довгий</span></div><p class="qdesc">Найдовший квест. Dark Moon Greatsword + Age of Stars ending.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-ranni" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-ranni">0 / 16 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Caria Manor → Three Sisters. Потрібен Radahn.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-ranni-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="ranni" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Caria Manor — NW Liurnia</span><div class="stxt">Вбий <strong>Royal Knight Loretta</strong> → виходь у Three Sisters.</div></div></div>
@@ -753,11 +764,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-millicent" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🌿</span><span class="qhdr-name">Millicent & Gowry</span><span class="diff dl">Довгий</span></div><p class="qdesc">Miquella's Needle — єдиний спосіб скасувати Frenzied Flame.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🌿</span><h2 class="qhdr-name">Millicent & Gowry</h2><span class="diff dl">Довгий</span></div><p class="qdesc">Miquella's Needle — єдиний спосіб скасувати Frenzied Flame.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-millicent" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-millicent">0 / 8 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Gowry's Shack у Caelid.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-millicent-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="millicent" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Gowry's Shack — S Caelid</span><div class="stxt">Знайди <strong>Gowry</strong> → він просить Unalloyed Gold Needle.</div></div></div>
@@ -789,11 +800,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-fia" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">💀</span><span class="qhdr-name">Fia — Deathbed Companion</span><span class="diff dl">Довгий</span></div><p class="qdesc">Ендінг Age of Duskborn. Потрібен Cursemark of Death з квесту Ranni.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">💀</span><h2 class="qhdr-name">Fia — Deathbed Companion</h2><span class="diff dl">Довгий</span></div><p class="qdesc">Ендінг Age of Duskborn. Потрібен Cursemark of Death з квесту Ranni.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-fia" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-fia">0 / 8 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Roundtable Hold → Deeproot Depths.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-fia-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="fia" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Roundtable Hold</span><div class="stxt"><strong>Fia</strong> → «Хочу щоб ти тримала мене» → Baldachin's Blessing (зніми ефект).</div><div><span class="sloot">Baldachin's Blessing</span></div></div></div>
@@ -824,11 +835,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-goldmask" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">☀</span><span class="qhdr-name">Goldmask & Brother Corhyn</span><span class="diff dm">Середній</span></div><p class="qdesc">Потрібна Law of Regression (37 INT). Ендінг Perfect Order.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">☀</span><h2 class="qhdr-name">Goldmask & Brother Corhyn</h2><span class="diff dm">Середній</span></div><p class="qdesc">Потрібна Law of Regression (37 INT). Ендінг Perfect Order.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-goldmask" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-goldmask">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Roundtable Hold → Altus → Leyndell.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-goldmask-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="goldmask" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Roundtable Hold</span><div class="stxt">Поговори з <strong>Corhyn</strong>. Купи <strong>Law of Regression</strong> ЗАРАЗ!</div><div class="stip">37 INT потрібно.</div></div></div>
@@ -853,11 +864,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-dungeater" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🩸</span><span class="qhdr-name">Dung Eater</span><span class="diff dm">Середній</span></div><p class="qdesc">2 Seedbed Curses зникають після Maliketh — плануй заздалегідь.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🩸</span><h2 class="qhdr-name">Dung Eater</h2><span class="diff dm">Середній</span></div><p class="qdesc">2 Seedbed Curses зникають після Maliketh — плануй заздалегідь.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-dungeater" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-dungeater">0 / 7 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Roundtable Hold. 5 Seedbed Curses.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-dungeater-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="dungeater" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Roundtable Hold</span><div class="stxt">Знайди <strong>Dung Eater</strong> у задній камері.</div></div></div>
@@ -885,11 +896,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-alexander" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏺</span><span class="qhdr-name">Alexander Iron Fist</span><span class="diff dm">Середній</span></div><p class="qdesc">Shard of Alexander — +15% skill damage.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏺</span><h2 class="qhdr-name">Alexander Iron Fist</h2><span class="diff dm">Середній</span></div><p class="qdesc">Shard of Alexander — +15% skill damage.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-alexander" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-alexander">0 / 5 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Saintsbridge, Limgrave. Закінчується у Farum Azula.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-alexander-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="alexander" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Saintsbridge — NE Limgrave</span><div class="stxt"><strong>Alexander</strong> застряг у ямі → вдар по спині.</div><div class="stip">Oil Pot + удар якщо не виходить.</div></div></div>
@@ -910,11 +921,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-varre" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🎭</span><span class="qhdr-name">White Mask Varre</span><span class="diff ds">Короткий</span></div><p class="qdesc">Ранній доступ до Mohgwyn Palace — 200k+ рун/хв.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🎭</span><h2 class="qhdr-name">White Mask Varre</h2><span class="diff ds">Короткий</span></div><p class="qdesc">Ранній доступ до Mohgwyn Palace — 200k+ рун/хв.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-varre" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-varre">0 / 5 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Починається одразу.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-varre-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="varre" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">First Step Grace</span><div class="stxt">Поговори з <strong>Varre</strong>.</div></div></div>
@@ -936,11 +947,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-nepheli" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">👁</span><span class="qhdr-name">Nepheli Loux & Kenneth Haight</span><span class="diff dm">Середній</span></div><p class="qdesc">Ancient Dragon Smithing Stone після Maliketh.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">👁</span><h2 class="qhdr-name">Nepheli Loux & Kenneth Haight</h2><span class="diff dm">Середній</span></div><p class="qdesc">Ancient Dragon Smithing Stone після Maliketh.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-nepheli" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-nepheli">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Stormveil + Fort Haight.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-nepheli-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="nepheli" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Stormveil Castle — перед Godrick</span><div class="stxt">Знайди <strong>Nepheli</strong> → виклич як summon для Godrick!</div></div></div>
@@ -965,11 +976,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-volcano" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🌋</span><span class="qhdr-name">Volcano Manor</span><span class="diff dm">Середній</span></div><p class="qdesc">3 листи + Rya + Castanets = ВСЕ до Rykard. Після — Manor закрито назавжди.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🌋</span><h2 class="qhdr-name">Volcano Manor</h2><span class="diff dm">Середній</span></div><p class="qdesc">3 листи + Rya + Castanets = ВСЕ до Rykard. Після — Manor закрито назавжди.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-volcano" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-volcano">0 / 7 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Altus → Mt. Gelmir → Volcano Manor.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-volcano-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="volcano" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Volcano Manor — Tanith</span><div class="stxt">Вступи → <strong>Drawing-Room Key</strong>.</div><div><span class="sloot">Drawing-Room Key</span></div></div></div>
@@ -997,11 +1008,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-rogier" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">📜</span><span class="qhdr-name">Rogier</span><span class="diff ds">Короткий</span></div><p class="qdesc">Купи Carian Filligreed Crest поки живий — більше ніде не отримати.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">📜</span><h2 class="qhdr-name">Rogier</h2><span class="diff ds">Короткий</span></div><p class="qdesc">Купи Carian Filligreed Crest поки живий — більше ніде не отримати.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-rogier" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-rogier">0 / 4 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Stormveil Castle.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-rogier-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="rogier" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Stormveil — підвальна каплиця</span><div class="stxt">Знайди <strong>Rogier</strong>. Поговори.</div></div></div>
@@ -1020,11 +1031,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-blaidd" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🐺</span><span class="qhdr-name">Blaidd the Half-Wolf</span><span class="diff dm">Середній</span></div><p class="qdesc">Трагічний фінал. Культова броня + Royal Greatsword.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🐺</span><h2 class="qhdr-name">Blaidd the Half-Wolf</h2><span class="diff dm">Середній</span></div><p class="qdesc">Трагічний фінал. Культова броня + Royal Greatsword.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-blaidd" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-blaidd">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Mistwood Ruins. Переплітається з Ranni.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-blaidd-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="blaidd" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Mistwood Ruins — Limgrave E</span><div class="stxt">Merchant Kale → емоут <strong>Finger Snap</strong> → Mistwood → <strong>Blaidd</strong>.</div></div></div>
@@ -1049,11 +1060,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-sellen" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🔮</span><span class="qhdr-name">Sorceress Sellen</span><span class="diff dm">Середній</span></div><p class="qdesc">Вибір: Sellen або Jerren — різні нагороди.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🔮</span><h2 class="qhdr-name">Sorceress Sellen</h2><span class="diff dm">Середній</span></div><p class="qdesc">Вибір: Sellen або Jerren — різні нагороди.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-sellen" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-sellen">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Waypoint Ruins, Liurnia.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-sellen-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="sellen" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Waypoint Ruins — Liurnia E</span><div class="stxt">Mad Pumpkin Head → <strong>Sellen</strong>.</div><div><span class="sloot">Sellian Sealbreaker</span></div></div></div>
@@ -1078,11 +1089,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-patches" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🪤</span><span class="qhdr-name">Patches</span><span class="diff dm">Довгий (5 локацій)</span></div><p class="qdesc">Ніколи не вбивай — потрібен для Volcano Manor і унікальних предметів.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🪤</span><h2 class="qhdr-name">Patches</h2><span class="diff dm">Довгий (5 локацій)</span></div><p class="qdesc">Ніколи не вбивай — потрібен для Volcano Manor і унікальних предметів.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-patches" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-patches">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Починається у Murkwater Cave.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-patches-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="patches" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Murkwater Cave — Limgrave NW</span><div class="stxt">Trap → <strong>ПРОБАЧ</strong> → він стає торговцем.</div><div class="swarn">НІКОЛИ не вбивай Patches!</div></div></div>
@@ -1107,11 +1118,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-yura" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🗡</span><span class="qhdr-name">Yura та Hyetta</span><span class="diff dm">Середній</span></div><p class="qdesc">Hyetta веде до Frenzied Flame ендінгу.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🗡</span><h2 class="qhdr-name">Yura та Hyetta</h2><span class="diff dm">Середній</span></div><p class="qdesc">Hyetta веде до Frenzied Flame ендінгу.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-yura" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-yura">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Yura — S Agheel Lake. Hyetta — Liurnia.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-yura-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="yura" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">S Agheel Lake — Limgrave</span><div class="stxt"><strong>Yura</strong> під скелею → допоможе проти Nerijus.</div><div><span class="sloot">Nagakiba (купити у Yura)</span></div></div></div>
@@ -1136,11 +1147,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-d-sister" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">⚔</span><span class="qhdr-name">D та його сестра</span><span class="diff ds">Короткий</span></div><p class="qdesc">D гине, сестра мстить Fia.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">⚔</span><h2 class="qhdr-name">D та його сестра</h2><span class="diff ds">Короткий</span></div><p class="qdesc">D гине, сестра мстить Fia.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-d-sister" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-d-sister">0 / 4 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Roundtable Hold → Deeproot Depths.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-d-sister-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="d-sister" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Roundtable Hold</span><div class="stxt">Weathered Dagger → D → Fia вб'є D → Збери <strong>Twinned Armor Set</strong>.</div><div><span class="sloot">Twinned Armor Set</span></div></div></div>
@@ -1158,11 +1169,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-diallos" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏛</span><span class="qhdr-name">Diallos</span><span class="diff dm">Середній</span></div><p class="qdesc">Трагічний квест — Diallos гине у Jarburg.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏛</span><h2 class="qhdr-name">Diallos</h2><span class="diff dm">Середній</span></div><p class="qdesc">Трагічний квест — Diallos гине у Jarburg.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-diallos" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-diallos">0 / 6 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Roundtable Hold → Liurnia → Jarburg.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-diallos-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="diallos" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Roundtable Hold</span><div class="stxt">Знайди <strong>Diallos</strong> → він розповідає про Lanya.</div></div></div>
@@ -1187,11 +1198,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-boc" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🧵</span><span class="qhdr-name">Boc the Seamster</span><span class="diff dm">Середній</span></div><p class="qdesc">Пошивець — змінює спорядження. Ніколи не давай Larval Tear!</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🧵</span><h2 class="qhdr-name">Boc the Seamster</h2><span class="diff dm">Середній</span></div><p class="qdesc">Пошивець — змінює спорядження. Ніколи не давай Larval Tear!</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-boc" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-boc">0 / 5 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Дорога біля Agheel Lake South.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-boc-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="boc" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Limgrave — Agheel Lake South</span><div class="stxt">Атакуй кущ що каже «тут!» → <strong>Boc</strong> звільняється.</div></div></div>
@@ -1212,11 +1223,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-edgar" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏰</span><span class="qhdr-name">Edgar & Irina</span><span class="diff ds">Короткий — трагічний</span></div><p class="qdesc">Обидва гинуть. Sacrificial Axe + Shabriri's Woe.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏰</span><h2 class="qhdr-name">Edgar & Irina</h2><span class="diff ds">Короткий — трагічний</span></div><p class="qdesc">Обидва гинуть. Sacrificial Axe + Shabriri's Woe.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-edgar" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-edgar">0 / 5 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Weeping Peninsula.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-edgar-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="edgar" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Weeping Peninsula — Bridge of Sacrifice</span><div class="stxt">Знайди <strong>Irina</strong> → вона дасть листа для Edgar.</div><div><span class="sloot">Irina's Letter</span></div></div></div>
@@ -1238,11 +1249,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div id="q-latenna" class="qpage">
-<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏹</span><span class="qhdr-name">Latenna the Albinauric</span><span class="diff ds">Короткий</span></div><p class="qdesc">Archer spirit summon. Потрібен Left Medallion Half.</p>
+<div class="qhdr"><div class="qhdr-top"><span class="qhdr-ico">🏹</span><h2 class="qhdr-name">Latenna the Albinauric</h2><span class="diff ds">Короткий</span></div><p class="qdesc">Archer spirit summon. Потрібен Left Medallion Half.</p>
 <div class="qpbar"><div class="qpbar-fill" id="pb-latenna" style="width:0%"></div></div>
 <p class="qpbar-txt" id="pt-latenna">0 / 3 кроків</p></div>
 <div class="prereq"><strong>Передумови:</strong> Village of the Albinaurics → Haligtree.</div>
-<p class="sl">Покрокові інструкції</p>
+<h3 class="sl">Покрокові інструкції</h3>
 <div class="step" id="step-latenna-0">
 <div class="step-l"><span class="snum">01</span><input type="checkbox" class="scb" data-q="latenna" data-i="0" onchange="toggleStep(this)"></div>
 <div class="step-r"><span class="sloc">Village of the Albinaurics — SW Liurnia</span><div class="stxt">Прихований NPC (виглядає як камінь) → атакуй → Haligtree Medallion Left Half.</div><div><span class="sloot">Haligtree Secret Medallion Left Half</span></div></div></div>
@@ -1260,7 +1271,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div></div>
 <div id="main-endings" class="maintab"><div class="wrap">
-<p class="sl">&#1042;&#1089;&#1110; 6 &#1079;&#1072;&#1082;&#1110;&#1085;&#1095;&#1077;&#1085;&#1100;</p>
+<h2 class="visually-hidden">Всі ендінги Elden Ring</h2>
+
+<h2 class="visually-hidden">Квести Elden Ring</h2>
+
+<h2 class="sl">&#1042;&#1089;&#1110; 6 &#1079;&#1072;&#1082;&#1110;&#1085;&#1095;&#1077;&#1085;&#1100;</h2>
 <div class="endings-grid">
 <div class="ec"><div class="ec-h"><div class="ec-name">Age of Fracture</div><div class="ec-sub">Стандартне</div></div><div class="ec-b">Просто торкнись Elden Ring.<div class="ec-note">Default.</div></div></div>
 <div class="ec"><div class="ec-h"><div class="ec-name">Age of Stars</div><div class="ec-sub">Квест Ranni</div></div><div class="ec-b">Завершити квест Ranni. Синій знак виклику.<div class="ec-note">Не потребує Rune.</div></div></div>
@@ -1271,7 +1286,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div></div>
 <div id="main-checklists" class="maintab"><div class="wrap">
-<p class="sl">&#1063;&#1077;&#1082;&#1083;&#1110;&#1089;&#1090;&#1080;</p>
+<h2 class="visually-hidden">Чеклісти Elden Ring</h2>
+
+<h2 class="sl">&#1063;&#1077;&#1082;&#1083;&#1110;&#1089;&#1090;&#1080;</h2>
 <div class="cl-g"><div class="cl-t">Legendary Armaments — 9 зброй</div>
 <div class="cl-pb"><div class="cl-pb-bar"><div class="cl-pb-fill" id="clpb-la" style="width:0%"></div></div><span class="cl-pb-txt" id="clpt-la">0/9</span></div>
 <div class="cl-item" id="cli-la-0"><input type="checkbox" class="cl-cb" data-g="la" data-i="0" onchange="tCL(this)"><div><div class="cl-name">Grafted Blade Greatsword</div><div class="cl-loc">Leonine Misbegotten — Castle Morne</div></div></div>
@@ -1345,7 +1362,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div></div>
 <div id="main-farming" class="maintab"><div class="wrap">
-<p class="sl">&#1056;&#1091;&#1085;-&#1092;&#1072;&#1088;&#1084;</p>
+<h2 class="visually-hidden">Фарм рун Elden Ring</h2>
+
+<h2 class="sl">&#1056;&#1091;&#1085;-&#1092;&#1072;&#1088;&#1084;</h2>
 <div class="fc"><div class="fc-h"><span class="fc-ico">🏆</span><span class="fc-name">Mohgwyn Palace — Albinauric Farm</span><span class="fc-runes">50k–200k / хв</span></div>
 <div class="fc-b"><strong>Коли:</strong> Одразу після квесту Varre (після Margit!). Через Pureblood Knight's Medal.<br><strong>Де:</strong> Grace Palace Approach Ledge-Road → Albinaurics на схилі.<div style="margin-top:8px"><div class="fs">Sacred Relic Sword (Wave of Gold) — дропає Elden Beast. АБО будь-яке AoE</div><div class="fs">Gold-Pickled Fowl Foot (+30% руни) перед кожним запуском</div><div class="fs">Gold Scarab talisman (+20% руни) — Abandoned Cave, Caelid</div><div class="fs">~60k рун за 30 сек, до 200k+ з усіма бонусами</div></div></div></div>
 <div class="fc"><div class="fc-h"><span class="fc-ico">⚔</span><span class="fc-name">Stormhill — ранній фарм</span><span class="fc-runes">1k–3k / хв</span></div>
@@ -1356,52 +1375,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="fc-b"><div style="margin-top:8px"><div class="fs">Gold Scarab talisman (Abandoned Cave, Caelid) — завжди носи</div><div class="fs">Дублюй Remembrances через Walking Mausoleums перед продажем</div><div class="fs">Lvl 50-80: Mohgwyn з Medal | Lvl 100+: Mohgwyn з Sacred Relic Sword</div></div></div></div>
 </div></div>
 <div id="main-bosses" class="maintab"><div class="wrap">
-<p class="sl">&#1055;&#1086;&#1088;&#1072;&#1076;&#1080; &#1087;&#1086; &#1073;&#1086;&#1089;&#1072;&#1093;</p>
+<h2 class="visually-hidden">Боси Elden Ring</h2>
+
+<h2 class="sl">&#1055;&#1086;&#1088;&#1072;&#1076;&#1080; &#1087;&#1086; &#1073;&#1086;&#1089;&#1072;&#1093;</h2>
 <div class="boss-grid">
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#9876;</span><span class="bc-name">Margit &amp; Morgott</span><span class="diff dm">Delayed attacks</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Margit's Shackle</strong> (Patches) &mdash; stunlock двічі у бою</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#9876;</span><h3 class="bc-name">Margit &amp; Morgott</h2><span class="diff dm">Delayed attacks</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Margit's Shackle</strong> (Patches) &mdash; stunlock двічі у бою</div>
 <div class="bt">Summon Rogier (Margit) або Nepheli (Morgott)</div>
 <div class="bt">Delayed атаки &mdash; не роли одразу, чекай кінця анімації</div>
 <div class="bt">Morgott фаза 2: дощ кинджалів &mdash; тримайся близько</div>
 <div class="bt"><strong>Слабкість:</strong> Standard, Bleed</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#127775;</span><span class="bc-name">Starscourge Radahn</span><span class="diff dm">Відкриває Nokron</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Виклич ВСІХ summons</strong> перед входом &mdash; Blaidd, Alexander, Millicent...</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#127775;</span><h3 class="bc-name">Starscourge Radahn</h2><span class="diff dm">Відкриває Nokron</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Виклич ВСІХ summons</strong> перед входом &mdash; Blaidd, Alexander, Millicent...</div>
 <div class="bt">Фаза 1: тримайся збоку від коня, атакуй ноги</div>
 <div class="bt">Фаза 2: він падає як метеор &mdash; відбіжи збоку, потім атакуй</div>
 <div class="bt">Gravity magic: стрибає вгору &mdash; наблизься прямо під нього</div>
 <div class="bt"><strong>Слабкість:</strong> Bleed, Cold</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#9889;</span><span class="bc-name">Maliketh, the Black Blade</span><span class="diff dm">Надшвидкий, death magic</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Blasphemous Claw</strong> (Farum Azula) &mdash; parry special attack у фазі 2</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#9889;</span><h3 class="bc-name">Maliketh, the Black Blade</h2><span class="diff dm">Надшвидкий, death magic</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Blasphemous Claw</strong> (Farum Azula) &mdash; parry special attack у фазі 2</div>
 <div class="bt">Фаза 1: залишайся близько, атакуй агресивно в паузах</div>
 <div class="bt">Death debuff скорочує max HP &mdash; не давай накопичуватися</div>
 <div class="bt">Spirit Ash обов'язковий &mdash; він занадто швидкий без відволікання</div>
 <div class="bt">Більшість атак &mdash; роли <strong>під нього</strong> (до корпусу)</div>
 <div class="bt"><strong>Слабкість:</strong> Bleed, Standard</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#127800;</span><span class="bc-name">Malenia, Blade of Miquella</span><span class="diff dm">Найважчий бос у грі</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Waterfowl Dance:</strong> відбіжи 3 кроки &rarr; 3 удари &rarr; пауза &rarr; 3 більших &rarr; роли ВІД неї</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#127800;</span><h3 class="bc-name">Malenia, Blade of Miquella</h2><span class="diff dm">Найважчий бос у грі</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Waterfowl Dance:</strong> відбіжи 3 кроки &rarr; 3 удари &rarr; пауза &rarr; 3 більших &rarr; роли ВІД неї</div>
 <div class="bt">Вона відновлює HP від КОЖНОГО удару, навіть заблокованого &mdash; не будь жадібним</div>
 <div class="bt"><strong>Bleed</strong> (Rivers of Blood) &mdash; швидкий buildup, ефективний</div>
 <div class="bt"><strong>Black Knife Tiche</strong> Spirit Ash &mdash; ухиляється від більшості атак, ідеальний саме тут</div>
 <div class="bt">Фаза 2: Scarlet Aeonia &mdash; відбіжи від місця приземлення, там rot explosion</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#128293;</span><span class="bc-name">Fire Giant</span><span class="diff dm">Обов'язковий для прогресу</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt">Фаза 1: <strong>атакуй ногу з раною</strong> (там eye). Ігноруй тіло</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#128293;</span><h3 class="bc-name">Fire Giant</h2><span class="diff dm">Обов'язковий для прогресу</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt">Фаза 1: <strong>атакуй ногу з раною</strong> (там eye). Ігноруй тіло</div>
 <div class="bt">Тримайся близько &mdash; більшість атак б'ють далеко. Під ним безпечно</div>
 <div class="bt">Фаза 2: атакуй руки і груди. Після вогняних атак відступи</div>
 <div class="bt">На Torrent значно легше &mdash; швидко переміщуйся між ударами</div>
 <div class="bt"><strong>Слабкість:</strong> Bleed, Frost</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#10022;</span><span class="bc-name">Radagon + Elden Beast</span><span class="diff dm">Фінал &mdash; без grace між ними</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Radagon:</strong> Holy damage НЕ ефективна &mdash; Frostbite або Bleed</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#10022;</span><h3 class="bc-name">Radagon + Elden Beast</h2><span class="diff dm">Фінал &mdash; без grace між ними</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Radagon:</strong> Holy damage НЕ ефективна &mdash; Frostbite або Bleed</div>
 <div class="bt">Radagon: деякі атаки залишають ефекти на підлозі &mdash; постійно рухайся</div>
 <div class="bt"><strong>Elden Beast:</strong> Black Flame incantations знижують max HP &mdash; дуже ефективно</div>
 <div class="bt">Elden Stars (рій куль): <strong>біжи перпендикулярно</strong> до руху куль</div>
 <div class="bt">Elden Beast постійно відступає &mdash; переслідуй або Spirit Ash як відволікання</div>
 <div class="bt">Прийди з ПОВНИМ запасом flasks &mdash; між боями немає grace</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#129656;</span><span class="bc-name">Mohg, Lord of Blood</span><span class="diff dm">Ключ до топ фарм локації</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Purifying Crystal Tear</strong> у Flask ОБОВ'ЯЗКОВИЙ &mdash; скасовує Nihil curse</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#129656;</span><h3 class="bc-name">Mohg, Lord of Blood</h2><span class="diff dm">Ключ до топ фарм локації</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Purifying Crystal Tear</strong> у Flask ОБОВ'ЯЗКОВИЙ &mdash; скасовує Nihil curse</div>
 <div class="bt">Без Tear він тричі відновлює HP &mdash; майже непереможний</div>
 <div class="bt">Bleed ефективний, Spirit Ash обов'язковий для відволікання</div>
 <div class="bt"><strong>Слабкість:</strong> Bleed, Standard</div>
 </div></div>
-<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#128013;</span><span class="bc-name">Rykard, Lord of Blasphemy</span><span class="diff dm">Найпростіший major бос</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Serpent-Hunter</strong> лежить у підлозі арени при вході &mdash; підбери ОДРАЗУ</div>
+<div class="bc"><div class="bc-h" onclick="tBoss(this)"><span class="bc-ico">&#128013;</span><h3 class="bc-name">Rykard, Lord of Blasphemy</h2><span class="diff dm">Найпростіший major бос</span><span class="chev">&#9660;</span></div><div class="bc-b"><div class="bt"><strong>Serpent-Hunter</strong> лежить у підлозі арени при вході &mdash; підбери ОДРАЗУ</div>
 <div class="bt">Heavy attack + постійно відходь назад</div>
 <div class="bt">Першу фазу можна завершити за 30-60 секунд</div>
 <div class="bt"><strong>Не намагайся бити без Serpent-Hunter</strong> &mdash; марно</div>
@@ -1409,8 +1430,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div></div>
 <div id="main-builds" class="maintab"><div class="wrap">
-<p class="sl">&#1041;&#1110;&#1083;&#1076;&#1080; &#1090;&#1072; &#1052;&#1077;&#1093;&#1072;&#1085;&#1110;&#1082;&#1080;</p>
-<p class="sl">Soft Caps</p><div class="stat-table"><div class="stat-card"><div class="stat-name">Vigor (HP)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:40%"></div><div class="stat-seg seg-y" style="left:40%;width:20%"></div><div class="stat-seg seg-r" style="left:60%;width:40%"></div></div><div class="stat-labels"><span>1</span><span>40</span><span>60</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">40->1020 HP</span><span class="cap-badge cap-y">60->1455 HP</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">: min 50, комфортно 60.</div></div>
+<h2 class="visually-hidden">Білди Elden Ring</h2>
+
+<h2 class="sl">&#1041;&#1110;&#1083;&#1076;&#1080; &#1090;&#1072; &#1052;&#1077;&#1093;&#1072;&#1085;&#1110;&#1082;&#1080;</h2>
+<h2 class="sl">Soft Caps</h2><div class="stat-table"><div class="stat-card"><div class="stat-name">Vigor (HP)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:40%"></div><div class="stat-seg seg-y" style="left:40%;width:20%"></div><div class="stat-seg seg-r" style="left:60%;width:40%"></div></div><div class="stat-labels"><span>1</span><span>40</span><span>60</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">40->1020 HP</span><span class="cap-badge cap-y">60->1455 HP</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">: min 50, комфортно 60.</div></div>
 <div class="stat-card"><div class="stat-name">Mind (FP)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:55%"></div><div class="stat-seg seg-y" style="left:55%;width:5%"></div><div class="stat-seg seg-r" style="left:60%;width:40%"></div></div><div class="stat-labels"><span>1</span><span>55</span><span>60</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">55->200 FP</span><span class="cap-badge cap-r">60+ min</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">Маги: 40-55. Решта: 15-25.</div></div>
 <div class="stat-card"><div class="stat-name">Endurance</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:50%"></div><div class="stat-seg seg-r" style="left:50%;width:50%"></div></div><div class="stat-labels"><span>1</span><span>50</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">До 50</span><span class="cap-badge cap-r">50+ Equip Load</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">Більшість: 25-40.</div></div>
 <div class="stat-card"><div class="stat-name">Strength (STR)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:20%"></div><div class="stat-seg seg-y" style="left:20%;width:35%"></div><div class="stat-seg seg-y" style="left:55%;width:25%"></div><div class="stat-seg seg-r" style="left:80%;width:20%"></div></div><div class="stat-labels"><span>1</span><span>20</span><span>55</span><span>80</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">20</span><span class="cap-badge cap-y">55</span><span class="cap-badge cap-y">80</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">Two-hand: STR x1.5. 40->60!</div></div>
@@ -1418,13 +1441,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="stat-card"><div class="stat-name">Intelligence (INT)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:20%"></div><div class="stat-seg seg-y" style="left:20%;width:30%"></div><div class="stat-seg seg-y" style="left:50%;width:30%"></div><div class="stat-seg seg-r" style="left:80%;width:20%"></div></div><div class="stat-labels"><span>1</span><span>20</span><span>50</span><span>80</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">20</span><span class="cap-badge cap-y">50</span><span class="cap-badge cap-y">80</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">INT: 60-70, решту у Vigor.</div></div>
 <div class="stat-card"><div class="stat-name">Faith (FTH)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:20%"></div><div class="stat-seg seg-y" style="left:20%;width:30%"></div><div class="stat-seg seg-y" style="left:50%;width:30%"></div><div class="stat-seg seg-r" style="left:80%;width:20%"></div></div><div class="stat-labels"><span>1</span><span>20</span><span>50</span><span>80</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">20</span><span class="cap-badge cap-y">50</span><span class="cap-badge cap-y">80</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">FGMS: 15 STR+FTH корисно всім.</div></div>
 <div class="stat-card"><div class="stat-name">Arcane (ARC)</div><div class="stat-bar-wrap"><div class="stat-seg seg-g" style="left:0%;width:20%"></div><div class="stat-seg seg-y" style="left:20%;width:25%"></div><div class="stat-seg seg-y" style="left:45%;width:35%"></div><div class="stat-seg seg-r" style="left:80%;width:20%"></div></div><div class="stat-labels"><span>1</span><span>20</span><span>45</span><span>80</span><span>99</span></div><div class="stat-caps"><span class="cap-badge cap-g">20</span><span class="cap-badge cap-y">45</span><span class="cap-badge cap-y">80</span></div><div style="font-size:11px;color:var(--text3);margin-top:5px;font-style:italic;">Для Bleed/Rivers of Blood: 60-80.</div></div>
-</div><p class="sl">Whetblades</p><div class="whet-grid"><div class="whet-row whr-h"><div class="wc">Whetblade</div><div class="wc">Де знайти</div><div class="wc">Що відкриває</div></div><div class="whet-row"><div class="wc"><span class="wc-name">Whetstone Knife</span></div><div class="wc">Gatefront Ruins</div><div class="wc"><span class="ip ip-neu">Standard</span></div></div>
+</div><h2 class="sl">Whetblades</h2><div class="whet-grid"><div class="whet-row whr-h"><div class="wc">Whetblade</div><div class="wc">Де знайти</div><div class="wc">Що відкриває</div></div><div class="whet-row"><div class="wc"><span class="wc-name">Whetstone Knife</span></div><div class="wc">Gatefront Ruins</div><div class="wc"><span class="ip ip-neu">Standard</span></div></div>
 <div class="whet-row"><div class="wc"><span class="wc-name">Iron Whetblade</span></div><div class="wc">Stormveil Castle</div><div class="wc"><span class="ip ip-str">Heavy STR</span><span class="ip ip-dex">Keen DEX</span><span class="ip ip-neu">Quality</span></div></div>
 <div class="whet-row"><div class="wc"><span class="wc-name">Glintstone Whetblade</span></div><div class="wc">Raya Lucaria Academy</div><div class="wc"><span class="ip ip-int">Magic INT</span><span class="ip ip-int">Cold INT+Frost</span></div></div>
 <div class="whet-row"><div class="wc"><span class="wc-name">Red-Hot Whetblade</span></div><div class="wc">Volcano Manor</div><div class="wc"><span class="ip ip-neu">Fire</span><span class="ip ip-fth">Flame Art FTH</span></div></div>
 <div class="whet-row"><div class="wc"><span class="wc-name">Sanctified Whetblade</span></div><div class="wc">Leyndell Royal Capital</div><div class="wc"><span class="ip ip-dex">Lightning DEX</span><span class="ip ip-fth">Sacred FTH</span></div></div>
 <div class="whet-row"><div class="wc"><span class="wc-name">Black Whetblade</span></div><div class="wc">Nokron Night Sacred Ground</div><div class="wc"><span class="ip ip-arc">Blood ARC</span><span class="ip ip-arc">Poison ARC</span><span class="ip ip-arc">Occult ARC</span></div></div>
-</div><p class="sl">Інфузії</p><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:7px;margin-bottom:22px;"><div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Heavy <span class="ip ip-str" style="font-size:9px;">STR</span></div><div style="font-size:12px;color:var(--text2);">Для STR 55-80.</div></div>
+</div><h2 class="sl">Інфузії</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:7px;margin-bottom:22px;"><div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Heavy <span class="ip ip-str" style="font-size:9px;">STR</span></div><div style="font-size:12px;color:var(--text2);">Для STR 55-80.</div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Keen <span class="ip ip-dex" style="font-size:9px;">DEX</span></div><div style="font-size:12px;color:var(--text2);">Для DEX. Katanas.</div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Quality <span class="ip ip-neu" style="font-size:9px;">STR+DEX</span></div><div style="font-size:12px;color:var(--text2);">40+40 або 55+55.</div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Magic <span class="ip ip-int" style="font-size:9px;">INT</span></div><div style="font-size:12px;color:var(--text2);">Magic+INT.</div></div>
@@ -1436,7 +1459,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Blood <span class="ip ip-arc" style="font-size:9px;">ARC+Bleed</span></div><div style="font-size:12px;color:var(--text2);">Bleed+ARC.</div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Poison <span class="ip ip-arc" style="font-size:9px;">ARC</span></div><div style="font-size:12px;color:var(--text2);">Poison.</div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Occult <span class="ip ip-arc" style="font-size:9px;">ARC</span></div><div style="font-size:12px;color:var(--text2);">Чистий ARC.</div></div>
-</div><p class="sl">Популярні білди</p><div class="build-grid"><div class="build-card"><div class="build-head"><div class="build-name">Strength</div><div class="build-sub">Повільний але потужний</div></div><div class="build-body"><div class="bstat"><span class="bstat-lbl">VIG</span><div class="bstat-bar"><div class="bstat-fill" style="width:60%;background:#4a8c5a;"></div></div><span class="bstat-val">60</span></div>
+</div><h2 class="sl">Популярні білди</h2><div class="build-grid"><div class="build-card"><div class="build-head"><div class="build-name">Strength</div><div class="build-sub">Повільний але потужний</div></div><div class="build-body"><div class="bstat"><span class="bstat-lbl">VIG</span><div class="bstat-bar"><div class="bstat-fill" style="width:60%;background:#4a8c5a;"></div></div><span class="bstat-val">60</span></div>
 <div class="bstat"><span class="bstat-lbl">END</span><div class="bstat-bar"><div class="bstat-fill" style="width:40%;background:#5a7a8c;"></div></div><span class="bstat-val">40</span></div>
 <div class="bstat"><span class="bstat-lbl">STR</span><div class="bstat-bar"><div class="bstat-fill" style="width:80%;background:#c06030;"></div></div><span class="bstat-val">80</span></div>
 <div class="bstat"><span class="bstat-lbl">DEX</span><div class="bstat-bar"><div class="bstat-fill" style="width:18%;background:#888;"></div></div><span class="bstat-val">18</span></div>
@@ -1468,8 +1491,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="build-tips"><div>&#9658; 55 STR two-hand = 82!</div><div>&#9658; Bloodhound's Fang</div></div></div></div>
 </div></div></div>
 <div id="main-materials" class="maintab"><div class="wrap">
-<p class="sl">&#1052;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &#1090;&#1072; &#1050;&#1086;&#1083;&#1077;&#1082;&#1094;&#1110;&#1103;</p>
-<p class="sl">Walking Mausoleums</p>
+<h2 class="visually-hidden">Матеріали Elden Ring</h2>
+
+<h2 class="sl">&#1052;&#1072;&#1090;&#1077;&#1088;&#1110;&#1072;&#1083;&#1080; &#1090;&#1072; &#1050;&#1086;&#1083;&#1077;&#1082;&#1094;&#1110;&#1103;</h2>
+<h2 class="sl">Walking Mausoleums</h2>
 <div style="background:var(--card);border:1px solid var(--bdr);border-left:3px solid var(--acc);border-radius:0 4px 4px 0;padding:12px 15px;margin-bottom:12px;font-size:13px;color:var(--text2);line-height:1.75;"><strong style="color:var(--text);">Що це таке?</strong> Велика камяна споруда на ногах що ходить по карті. Всередині &mdash; постамент для дублювання Remembrance (Памяті) боса.<br><br><strong style="color:var(--text);">Навіщо?</strong> Кожна Remembrance дає вибір: зброя або заклинання. Дублювання &mdash; отримуєш <strong>обидва</strong> варіанти з однієї перемоги.<br><br><strong style="color:var(--text);">Як змусити впасти на коліна:</strong><br><strong>1.</strong> Підійди знизу до ніг &rarr; <strong>атакуй білі камяні нарости</strong> (кальцифіковані плями на ногах) &mdash; зброю, стрілами або заклинанням<br><strong>2.</strong> Коли він впаде &mdash; зайди всередину &rarr; взаємодій з постаментом &rarr; вибери яку Remembrance задублювати<br><strong>3.</strong> <strong>Один раз за гру</strong> &mdash; потім він встає і більше не доступний. Вибирай мудро.<br><br><span style="font-style:italic;color:var(--text3);">З дзвоном на голові &mdash; будь-яка Remembrance. Без дзвону &mdash; тільки 8 головних Shardbearer босів.</span></div><div class="maus-grid"><div class="maus-card"><div class="maus-zone">Weeping Peninsula</div><div class="maus-loc">Центральна — Minor Erdtree</div><div class="maus-note">Один з перших</div><span class="maus-tag maus-any">Будь-яка Remembrance</span></div>
 <div class="maus-card"><div class="maus-zone">Liurnia NW</div><div class="maus-loc">Kingsrealm Ruins (роaming)</div><div class="maus-note">Переміщується</div><span class="maus-tag maus-shard">Тільки Shardbearer</span></div>
 <div class="maus-card"><div class="maus-zone">Liurnia SW</div><div class="maus-loc">Academy Gate Town</div><div class="maus-note">Нерухомий</div><span class="maus-tag maus-any">Будь-яка Remembrance</span></div>
@@ -1477,7 +1502,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="maus-card"><div class="maus-zone">Consecrated Snowfield</div><div class="maus-loc">Центральна зона</div><div class="maus-note">Ендгейм</div><span class="maus-tag maus-shard">Тільки Shardbearer</span></div>
 <div class="maus-card"><div class="maus-zone">Deeproot Depths</div><div class="maus-loc">Nameless Eternal City</div><div class="maus-note">Легко пропустити</div><span class="maus-tag maus-any">Будь-яка Remembrance</span></div>
 <div class="maus-card"><div class="maus-zone">Late Game</div><div class="maus-loc">Mountaintops/Farum</div><div class="maus-note">Пізні дублювання</div><span class="maus-tag maus-shard">Тільки Shardbearer</span></div>
-</div><p class="sl">Які Remembrances дублювати</p><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:7px;margin-bottom:22px;"><div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Godrick</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Axe of Godrick</strong><br>Spell: <strong>Grafted Dragon</strong></div></div>
+</div><h2 class="sl">Які Remembrances дублювати</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:7px;margin-bottom:22px;"><div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Godrick</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Axe of Godrick</strong><br>Spell: <strong>Grafted Dragon</strong></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Radahn</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Lion Greatbow / Starscourge GS</strong><br>Spell: <strong>(немає)</strong></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Rennala</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Carian Regal Scepter</strong><br>Spell: <strong>Rennala's Full Moon</strong></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Morgott</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Morgott's Cursed Sword (Bleed)</strong><br>Spell: <strong>Helphen's Steeple</strong></div></div>
@@ -1485,7 +1510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Maliketh</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Maliketh's Black Blade</strong><br>Spell: <strong>Black Blade</strong></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Malenia</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Hand of Malenia</strong><br>Spell: <strong>Scarlet Aeonia</strong></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:4px;padding:10px 13px;"><div style="font-family:Cinzel,serif;font-size:11px;color:var(--acc);margin-bottom:4px;">Elden Beast</div><div style="font-size:12px;color:var(--text2);">Weapon: <strong>Sacred Relic Sword (Wave of Gold!)</strong><br>Spell: <strong>Elden Stars</strong></div></div>
-</div><p class="sl">Larval Tears (18 total)</p>
+</div><h2 class="sl">Larval Tears (18 total)</h2>
 <div style="background:var(--card);border:1px solid var(--bdr);border-left:3px solid var(--acc);border-radius:0 4px 4px 0;padding:12px 15px;margin-bottom:14px;font-size:13px;color:var(--text2);line-height:1.7;"><strong style="color:var(--text);">Що таке Larval Tear?</strong><br>Предмет для <strong>повного перерозподілу статів (Respec)</strong>. 1 Larval Tear = 1 зміна білду.<br><strong>Як використати:</strong> Принеси Larval Tear до <strong>Rennala, Queen of the Full Moon</strong> (Raya Lucaria, Liurnia) &rarr; вибери "Rebirth" &rarr; розподіляй всі рівні з нуля.<br><span style="font-style:italic;color:var(--text3);">Всього 18 штук у грі. Єдиний спосіб змінити білд. Збирай завчасно.</span></div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:5px;margin-bottom:16px;"><div style="background:var(--card);border:1px solid var(--bdr);border-radius:3px;padding:7px 11px;display:flex;align-items:flex-start;gap:7px;"><input type="checkbox" class="cl-cb" style="margin-top:2px;accent-color:var(--acc);flex-shrink:0;" data-g="lt2" data-i="0" onchange="tCL(this)"><div><div style="font-size:12.5px;font-weight:500;color:var(--text);">Silver Sphere x3</div><div style="font-size:11px;color:var(--text3);font-style:italic;">Village of the Albinaurics — SW Liurnia</div></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:3px;padding:7px 11px;display:flex;align-items:flex-start;gap:7px;"><input type="checkbox" class="cl-cb" style="margin-top:2px;accent-color:var(--acc);flex-shrink:0;" data-g="lt2" data-i="1" onchange="tCL(this)"><div><div style="font-size:12.5px;font-weight:500;color:var(--text);">Merchant Pidia</div><div style="font-size:11px;color:var(--text3);font-style:italic;">Carian Study Hall</div></div></div>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:3px;padding:7px 11px;display:flex;align-items:flex-start;gap:7px;"><input type="checkbox" class="cl-cb" style="margin-top:2px;accent-color:var(--acc);flex-shrink:0;" data-g="lt2" data-i="2" onchange="tCL(this)"><div><div style="font-size:12.5px;font-weight:500;color:var(--text);">Silver Sphere</div><div style="font-size:11px;color:var(--text3);font-style:italic;">Caelid — Minor Erdtree</div></div></div>
@@ -1500,7 +1525,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div style="background:var(--card);border:1px solid var(--bdr);border-radius:3px;padding:7px 11px;display:flex;align-items:flex-start;gap:7px;"><input type="checkbox" class="cl-cb" style="margin-top:2px;accent-color:var(--acc);flex-shrink:0;" data-g="lt2" data-i="11" onchange="tCL(this)"><div><div style="font-size:12.5px;font-weight:500;color:var(--text);">Enemy drop</div><div style="font-size:11px;color:var(--text3);font-style:italic;">Crumbling Farum Azula</div></div></div>
 </div></div></div>
 <div id="main-effects" class="maintab"><div class="wrap">
-<p class="sl">Status Effects &mdash; як працює</p>
+<h2 class="visually-hidden">Status Effects Elden Ring</h2>
+
+<h2 class="sl">Status Effects &mdash; як працює</h2>
 <p class="intro">Buildup накопичується з кожним ударом і спадає між атаками. При досягненні порогу &mdash; proc. Важливо: <strong>Madness i Death Blight практично не діють на великих босів</strong>.</p>
 <div class="status-grid">
 <div class="scard s-bleed"><div class="sc-head"><span class="sc-ico">&#x1F9B8;</span><div><div class="sc-name">Bleed (Blood Loss)</div><div class="sc-sub">Топ-1 PvE</div></div></div><div class="sc-body"><div class="sc-row"><span class="sc-lbl">Ефект</span><span class="sc-val"><strong>~15% від max HP</strong> миттєво при proc (burst, не DoT).</span></div>
@@ -1536,7 +1563,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="sc-row"><span class="sc-lbl">Зняти</span><span class="sc-val">Немає стандартного Bolus. Уникай накопичення.</span></div>
 </div></div>
 </div>
-<p class="sl">Що на кого діє</p>
+<h2 class="sl">Що на кого діє</h2>
 <div style="overflow-x:auto;margin-bottom:24px;"><table style="width:100%;border-collapse:collapse;font-size:12.5px;background:var(--card);border:1px solid var(--bdr);border-radius:4px;overflow:hidden;"><thead><tr style="background:var(--bg2);font-family:Cinzel,serif;font-size:8.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);"><th style="padding:10px 12px;text-align:left;border-bottom:1px solid var(--bdr);">Ефект</th><th style="padding:10px 12px;text-align:center;border-bottom:1px solid var(--bdr);">Великі боси</th><th style="padding:10px 12px;text-align:center;border-bottom:1px solid var(--bdr);">World enemies</th><th style="padding:10px 12px;text-align:center;border-bottom:1px solid var(--bdr);">PvP (Tarnished)</th></tr></thead><tbody>
 <tr><td style="padding:9px 12px;border-bottom:1px solid var(--bdr);font-weight:500;color:var(--text);">&#x1F9B8; Bleed</td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td></tr>
 <tr><td style="padding:9px 12px;border-bottom:1px solid var(--bdr);font-weight:500;color:var(--text);">&#x2744; Frostbite</td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td></tr>
@@ -1545,7 +1572,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <tr><td style="padding:9px 12px;border-bottom:1px solid var(--bdr);font-weight:500;color:var(--text);">&#x1F525; Madness</td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#8c2a2a;font-weight:700;font-size:15px;">&#10008;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td></tr>
 <tr><td style="padding:9px 12px;border-bottom:1px solid var(--bdr);font-weight:500;color:var(--text);">&#x1F480; Death Blight</td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#8c2a2a;font-weight:700;font-size:15px;">&#10008;</span></td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);font-size:11px;color:var(--text3);">Слабко</td><td style="padding:9px 12px;text-align:center;border-bottom:1px solid var(--bdr);"><span style="color:#2a8c5a;font-weight:700;font-size:15px;">&#10003;</span></td></tr>
 </tbody></table></div>
-<p class="sl">Damage Combos &mdash; найкращі ланцюги ефектів</p>
+<h2 class="sl">Damage Combos &mdash; найкращі ланцюги ефектів</h2>
 <p class="intro">Статус-ефекти різного типу стекуються незалежно. Frost + Bleed = обидва активні одночасно. Два Bleed джерела = один buildup pool.</p>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:10px;margin-bottom:22px;"><div class="combo-chain"><div class="chain-head"><div class="chain-title">Frost &#8594; Bleed &#8594; Frost &#8594; Bleed...</div><div class="chain-sub">Найпопулярніший нескінченний цикл</div></div><div class="chain-body"><div class="chain-steps"><span class="cs-pill cs-frost">Frost &mdash; 10% HP + -20% negation</span><span class="cs-arrow">&#8594;</span><span class="cs-pill cs-bleed">Bleed &mdash; 15% HP burst</span><span class="cs-arrow">&#8594;</span><span class="cs-pill cs-frost">Frost знову (-20% negation)</span><span class="cs-arrow">&#8594;</span><span class="cs-pill cs-bleed">Bleed &mdash; 15% HP burst</span></div><div class="chain-why"><strong>Frost знижує damage negation -20%</strong> &#8594; Bleed б'є сильніше &#8594; після proc Frost buildup скидається &#8594; можна почати знову. Потребує дві зброї: Cold у лівій, Bleed у правій. Безперервний цикл на весь бій.<div class="chain-build">Для: Cold Uchigatana (L) + Rivers of Blood (R) | ARC 18+, DEX 18+</div></div></div></div>
 <div class="combo-chain"><div class="chain-head"><div class="chain-title">Frost &#8594; Fire &#8594; Frost...</div><div class="chain-sub">Frost debuff + Fire вибух</div></div><div class="chain-body"><div class="chain-steps"><span class="cs-pill cs-frost">Frost &mdash; 10% HP + -20% negation</span><span class="cs-arrow">&#8594;</span><span class="cs-pill cs-fire">Fire damage</span><span class="cs-arrow">&#8594;</span><span class="cs-pill cs-frost">Frost знову (-20% negation)</span></div><div class="chain-why"><strong>Frost дає -20% до всіх типів negation</strong> включаючи fire &#8594; Fire attacks/заклинання б'ють сильніше. Потім Frost скидається і можна повторити.<div class="chain-build">Для: Cold зброя + Flame Grant Me Strength + Bloodflame Blade або Flame of the Fell God</div></div></div></div>
@@ -1555,7 +1582,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="combo-chain"><div class="chain-head"><div class="chain-title">Frost &#8594; Holy / Lightning (специфічно)</div><div class="chain-sub">Проти Malenia та Sacred enemies</div></div><div class="chain-body"><div class="chain-steps"><span class="cs-pill cs-frost">Frost &mdash; -20% negation</span><span class="cs-arrow">&#8594;</span><span class="cs-pill cs-buff">Lightning або Holy</span></div><div class="chain-why"><strong>Malenia вразлива до Fire i Lightning.</strong> Після Frost proc (-20% до ALL negations) Lightning або Sacred damage б'є значно сильніше. Проти <strong>Elden Beast</strong>: Holy ефективний. Проти <strong>Radagon</strong>: Holy неефективний.<div class="chain-build">Для: DEX/FTH гібрид | Lightning Armament + Cold Uchigatana</div></div></div></div>
 </div></div></div>
 <div id="main-buffs" class="maintab"><div class="wrap">
-<p class="sl">Слоти бафів &mdash; як стекується</p>
+<h2 class="visually-hidden">Бафи Elden Ring</h2>
+
+<h2 class="sl">Слоти бафів &mdash; як стекується</h2>
 <p class="intro">Одночасно: <strong>1 Аура</strong> + <strong>1 Тіло</strong> + <strong>1 Зброя</strong> + <strong>будь-скільки Унікальних</strong>. <span class="buff-tag tag-atk">ATK</span> = шкода &bull; <span class="buff-tag tag-def">DEF</span> = захист &bull; <span class="buff-tag tag-both">ATK+DEF</span> = обидва &bull; <span class="buff-tag tag-util">UTIL</span> = утиліта</p>
 <div class="buff-slots"><div class="buff-slot slot-aura"><div class="bs-head"><span class="bs-ico">&#128294;</span><div><div class="bs-title">Аура (Aura)</div><div class="bs-rule">Тільки 1 одночасно &bull; Стекується з Тілом, Зброєю і Унікальними</div></div></div><div class="bs-body"><div class="buff-item"><div class="buff-left"><div class="buff-name">Golden Vow</div><div class="buff-val">+15% damage, +10% negation</div><div class="buff-meta"><span class="buff-dur">80 с</span><span class="buff-dur" style="color:var(--acc2);">25 FTH</span><span class="buff-tag tag-both">ATK+DEF</span></div></div></div>
 <div class="buff-item"><div class="buff-left"><div class="buff-name">Commander's Standard (AoW)</div><div class="buff-val">+20% damage тільки гравця</div><div class="buff-meta"><span class="buff-dur">AoW</span><span class="buff-tag tag-atk">ATK</span></div></div></div>
@@ -1584,7 +1613,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="buff-item"><div class="buff-left"><div class="buff-name">Dragoncrest Greatshield Talisman</div><div class="buff-val">+20% damage negation</div><div class="buff-meta"><span class="buff-dur">Passive</span><span class="buff-dur" style="color:var(--acc2);">Talisman</span><span class="buff-tag tag-def">DEF</span></div></div></div>
 <div class="buff-item"><div class="buff-left"><div class="buff-name">Boiled Prawn</div><div class="buff-val">+15% phys negation тільки</div><div class="buff-meta"><span class="buff-dur">60 с</span><span class="buff-dur" style="color:var(--acc2);">Купити</span><span class="buff-tag tag-def">DEF</span></div></div></div>
 </div></div>
-</div><p class="sl">Матриця сумісності</p>
+</div><h2 class="sl">Матриця сумісності</h2>
 <p class="intro">&#10003; = стекуються &bull; &#10008; = перезаписують (діє останній)</p>
 <div class="stack-matrix"><div class="sm-head-row"><div class="sm-c"></div><div class="sm-c">&#128294; Аура</div><div class="sm-c">&#128293; Тіло</div><div class="sm-c">&#9876; Зброя</div><div class="sm-c">&#10024; Унік.</div></div>
 <div class="sm-row"><div class="sm-c">&#128294; Аура</div><div class="sm-c"><span class="sm-dash">&#8212;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div></div>
@@ -1592,14 +1621,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="sm-row"><div class="sm-c">&#9876; Зброя</div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-no">&#10008;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div></div>
 <div class="sm-row"><div class="sm-c">&#10024; Унікальні</div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div><div class="sm-c"><span class="sm-yes">&#10003;</span></div></div>
 </div>
-<p class="sl">Комбінації перед босом</p>
+<h2 class="sl">Комбінації перед босом</h2>
 <div class="buff-combo-grid"><div class="buff-combo"><div class="bc-build">STR / Quality — max damage</div><div class="bc-slots"><div class="bc-row"><span class="bc-slot-lbl lbl-a">Аура</span><span>Golden Vow (+15%)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-b">Тіло</span><span>Flame Grant Me Strength (+20% phys)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-w">Зброя</span><span>&mdash;</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-u">Унік.</span><span>Flask: Stonebarb + Thorny</span></div></div><div style="font-size:11.5px;color:var(--text2);line-height:1.5;"><strong>~+38% phys damage</strong>. Для colossal + Royal Resolve.</div></div>
 <div class="buff-combo"><div class="bc-build">FTH Incantation burst</div><div class="bc-slots"><div class="bc-row"><span class="bc-slot-lbl lbl-a">Аура</span><span>Golden Vow (+15%)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-b">Тіло</span><span>Flame Grant Me Strength (+20%)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-w">Зброя</span><span>Bloodflame або Black Flame Blade</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-u">Унік.</span><span>Flask: Flame-Shrouding + Cerulean</span></div></div><div style="font-size:11.5px;color:var(--text2);line-height:1.5;"><strong>~+35% damage + Zero FP 10 сек</strong>. Виливаєш все безкоштовно.</div></div>
 <div class="buff-combo"><div class="bc-build">ARC Bleed (Rivers of Blood)</div><div class="bc-slots"><div class="bc-row"><span class="bc-slot-lbl lbl-a">Аура</span><span>Golden Vow</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-b">Тіло</span><span>Exalted Flesh або Bloodboil</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-w">Зброя</span><span>Bloodflame Blade (якщо не Rivers)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-u">Унік.</span><span>Flask: Thorny + Cerulean</span></div></div><div style="font-size:11.5px;color:var(--text2);line-height:1.5;"><strong>Frost->Bleed combo</strong>. Bloodboil +20% але -15% negation.</div></div>
 <div class="buff-combo"><div class="bc-build">INT / Comet Azur spam</div><div class="bc-slots"><div class="bc-row"><span class="bc-slot-lbl lbl-a">Аура</span><span>&mdash;</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-b">Тіло</span><span>&mdash;</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-w">Зброя</span><span>Electrify Armament для melee</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-u">Унік.</span><span>Flask: Cerulean Hidden + Magic-Shrouding</span></div></div><div style="font-size:11.5px;color:var(--text2);line-height:1.5;"><strong>Zero FP 10 сек</strong>. Terra Magicus під ногами = +35% magic.</div></div>
 <div class="buff-combo"><div class="bc-build">Defensive survivability</div><div class="bc-slots"><div class="bc-row"><span class="bc-slot-lbl lbl-a">Аура</span><span>Golden Vow (+10% negation)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-b">Тіло</span><span>Boiled Crab (+15% negation)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-w">Зброя</span><span>&mdash;</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-u">Унік.</span><span>Flask: Opaline + Greenburst</span></div></div><div style="font-size:11.5px;color:var(--text2);line-height:1.5;"><strong>~+25% negation</strong> + Dragoncrest Talisman = практично непробивний.</div></div>
 <div class="buff-combo"><div class="bc-build">Max damage burst (ризик!)</div><div class="bc-slots"><div class="bc-row"><span class="bc-slot-lbl lbl-a">Аура</span><span>Commander Standard (+20%)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-b">Тіло</span><span>Howl of Shabriri (+25%, -25% def)</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-w">Зброя</span><span>Bloodflame Blade</span></div><div class="bc-row"><span class="bc-slot-lbl lbl-u">Унік.</span><span>Flask: Stonebarb + Thorny</span></div></div><div style="font-size:11.5px;color:var(--text2);line-height:1.5;"><strong>Тільки якщо вбиваєш боса за 10 сек</strong>. -25% negation = один удар смерть.</div></div>
-</div><p class="sl">Чого ніколи не робити</p>
+</div><h2 class="sl">Чого ніколи не робити</h2>
 <div class="ow-list"><div class="ow-card"><div class="ow-pair">Boiled Prawn зітре Flame Grant Me Strength</div><div class="ow-why">Prawn = Тіло-буф. Завжди ставь FGMS після Prawn.</div></div>
 <div class="ow-card"><div class="ow-pair">Exalted Flesh зітре Flame Grant Me Strength</div><div class="ow-why">Обидва Тіло-бафи. Діє останній.</div></div>
 <div class="ow-card"><div class="ow-pair">Bloodboil Aromatic зітре і FGMS і Exalted Flesh</div><div class="ow-why">Три Тіло-бафи — взаємно виключають.</div></div>
@@ -1608,8 +1637,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="ow-card"><div class="ow-pair">Boiled Crab зітре Exalted Flesh / FGMS</div><div class="ow-why">Crab = Тіло-буф. Вибирай: damage або negation.</div></div>
 <div class="ow-card"><div class="ow-pair">Rennala Full Moon зітре Ranni Dark Moon</div><div class="ow-why">Схожий debuff effect на ворогів.</div></div>
 </div>
-<p class="sl">Порядок кастування</p>
-<div style="background:var(--card);border:1px solid var(--bdr);border-left:3px solid var(--acc);border-radius:0 4px 4px 0;padding:12px 15px;margin-bottom:22px;"><div style="font-family:Cinzel,serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--acc);margin-bottom:8px;">Правильний порядок кастування</div><div style="font-size:13px;color:var(--text2);line-height:1.8;"><strong style="color:var(--text);">1.</strong> Найдовший буф першим: Golden Vow (80 с) -> Crab (60 с) -> FGMS (30 с)<br><strong style="color:var(--text);">2.</strong> FGMS завжди останнім з Тіло-бафів<br><strong style="color:var(--text);">3.</strong> Зброя-буф у будь-якому порядку &mdash; незалежний слот<br><strong style="color:var(--text);">4.</strong> Old Lord's Talisman подовжує incantation бафи +30%</div></div><p class="sl">Кристальні сльози &mdash; бафи Flask of Wondrous Physick</p>
+<h2 class="sl">Порядок кастування</h2>
+<div style="background:var(--card);border:1px solid var(--bdr);border-left:3px solid var(--acc);border-radius:0 4px 4px 0;padding:12px 15px;margin-bottom:22px;"><div style="font-family:Cinzel,serif;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--acc);margin-bottom:8px;">Правильний порядок кастування</div><div style="font-size:13px;color:var(--text2);line-height:1.8;"><strong style="color:var(--text);">1.</strong> Найдовший буф першим: Golden Vow (80 с) -> Crab (60 с) -> FGMS (30 с)<br><strong style="color:var(--text);">2.</strong> FGMS завжди останнім з Тіло-бафів<br><strong style="color:var(--text);">3.</strong> Зброя-буф у будь-якому порядку &mdash; незалежний слот<br><strong style="color:var(--text);">4.</strong> Old Lord's Talisman подовжує incantation бафи +30%</div></div><h2 class="sl">Кристальні сльози &mdash; бафи Flask of Wondrous Physick</h2>
 <p class="intro">Дві сльози одночасно. Вільно стекуються з усіма наведеними бафами.</p>
 <div class="crystal-grid"><div class="crystal-card"><div class="crystal-name">Cerulean Hidden Tear <span class="buff-tag tag-atk">ATK</span></div><div class="crystal-effect">Zero FP cost ~10 сек</div><div class="crystal-note">Топ для кастерів. Comet Azur безкоштовно.</div></div>
 <div class="crystal-card"><div class="crystal-name">Thorny Cracked Tear <span class="buff-tag tag-atk">ATK</span></div><div class="crystal-effect">+damage з consecutive hits</div><div class="crystal-note">Агресивний melee. Комбо з Stonebarb.</div></div>
@@ -1625,7 +1654,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="crystal-card"><div class="crystal-name">DEX Knot Crystal Tear <span class="buff-tag tag-atk">ATK</span></div><div class="crystal-effect">Тимчасово +10 DEX</div><div class="crystal-note">Для DEX/Bleed відкриття.</div></div>
 <div class="crystal-card"><div class="crystal-name">Crimsonburst Crystal Tear <span class="buff-tag tag-def">DEF</span></div><div class="crystal-effect">HP regen під час бою</div><div class="crystal-note">Пасивний heal.</div></div>
 <div class="crystal-card"><div class="crystal-name">Twiggy Cracked Tear <span class="buff-tag tag-util">UTIL</span></div><div class="crystal-effect">Не втрачаєш руни при смерті</div><div class="crystal-note">Для вивчення нових босів.</div></div>
-</div><p class="sl">Великі Руни &mdash; активуються Rune Arc</p>
+</div><h2 class="sl">Великі Руни &mdash; активуються Rune Arc</h2>
 <p class="intro">Активні до смерті. Спочатку активуй у Divine Tower, потім вмикни в меню Great Runes, потім витрати Rune Arc.</p>
 <div class="grune-grid"><div class="grune-card"><div class="grune-head"><span class="grune-ico">&#127775;</span><span class="grune-name">Godrick's Great Rune</span><span class="grune-tier gt-s">S</span></div><div class="grune-body"><div class="grune-effect">+5 до ВСІХ атрибутів</div><div class="grune-where">Divine Tower: Limgrave (через Stormveil Bridge)</div><div class="grune-note">Найвсеосяжніший. Розблоковує вимоги до зброї. Early/mid найкращий. На після soft caps менш цінний.</div></div></div>
 <div class="grune-card"><div class="grune-head"><span class="grune-ico">&#9889;</span><span class="grune-name">Radahn's Great Rune</span><span class="grune-tier gt-s">S</span></div><div class="grune-body"><div class="grune-effect">+15% max HP, +15% FP, +15% Stamina</div><div class="grune-where">Divine Tower: Caelid (Redmane Castle — міст на схід)</div><div class="grune-note">Топ для. Відсоткові бонуси цінніші після soft caps. +HP+FP+Stamina одночасно.</div></div></div>
